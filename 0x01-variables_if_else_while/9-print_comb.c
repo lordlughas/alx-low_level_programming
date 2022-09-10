@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+#include <unistd.h>
 /**
  * main - main entry point
  *
@@ -10,7 +10,7 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; i <= '9'; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
 		putchar(i);
 		if (i != '9')
