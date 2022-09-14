@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int n, int z = 0;
+	int n, z = 0;
 
-	for (n < 1024)
+	while (n < 1024)
 	{
-		if ((n % 3 == '0') || (n % 5 == '0'))
+		if ((n % 3 == 0) || (n % 5 == 0))
 		{
 			z += n;
 		}
 
 		n++;
 	}
-		_putchar("%d\n", z);
+		printf("%d\n", z);
 		return (0);
 }
 
