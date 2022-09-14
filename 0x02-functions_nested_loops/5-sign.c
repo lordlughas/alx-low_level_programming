@@ -1,7 +1,8 @@
-#includes "main.h"
+#include "main.h"
 
 /**
- * 5-sign.c - main entry point
+ * print_sign - main entry point
+ * @n: carrier variable
  * Description: prints the sign of a number
  * Return: 1 if n>0, 0 if n==0, -1 if n<0
  */
@@ -18,7 +19,7 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar('0');
 		return (0);
