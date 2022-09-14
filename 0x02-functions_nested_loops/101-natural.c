@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-	int n;
-	int sum = 0;
+	int n, int z = 0;
 
-	for (n = '0'; n < '1024'; n++)
+	for (n < 1024)
 	{
-		if (n % 3 == '0' || n % 5 == '0')
+		if ((n % 3 == '0') || (n % 5 == '0'))
 		{
-			sum += n;
+			z += n;
 		}
 
-		_putchar("%d\n", sum);
-		return (o);
+		n++;
 	}
+		_putchar("%d\n", z);
+		return (0);
 }
 
