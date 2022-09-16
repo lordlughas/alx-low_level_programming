@@ -2,7 +2,7 @@
 
 /**
  * main - prime numbers
- * 
+ *
  * Return: 0
  */
 
