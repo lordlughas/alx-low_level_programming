@@ -3,7 +3,7 @@
 /**
  * main - fizz buzz code
  *
- * Return: void
+ * Return: 0
  */
 
 int main(void)
@@ -32,6 +32,7 @@ int main(void)
 		{
 			putchar(' ');
 		}
+
 		i++;
 	}
 	putchar('\n');
