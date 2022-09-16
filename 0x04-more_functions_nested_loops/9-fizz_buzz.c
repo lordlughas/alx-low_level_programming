@@ -3,7 +3,7 @@
 /**
  * main - fizz buzz code
  *
- * Return: 0
+ * Return: void
  */
 
 int main(void)
@@ -28,7 +28,7 @@ int main(void)
 		{
 			printf("%i", i);
 		}
-		if (i != 0)
+		if (i != 100)
 		{
 			putchar(' ');
 		}
