@@ -2,17 +2,16 @@
 
 /*
  * swap_int - swaps the value of two integers
- * @p: swap integer bucket for the integers
+ * @a: swap integer 1
+ * @b: swap integer 2
  *
  * Description: function that swaps the values of two integers
- * Return: nothing
+ * Return: 0
  */
 
 void swap_int(int *a, int *b)
 {
-	int *p;
-
-	*p = *a;
-	*a = *b;
-	*b = *p;
+	*a += *b;
+	*b = *a - *b;
+	*a = *a - *b;
 }
