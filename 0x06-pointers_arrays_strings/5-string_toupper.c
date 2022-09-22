@@ -3,7 +3,8 @@
 /**
  * string_toupper - change all lowercase to uppercase letters
  * of a string to uppercase
- * @index: The string to be changed
+ * @str: The string to be changed
+ *
  * Return: A pointer to the changed string
  */
 
