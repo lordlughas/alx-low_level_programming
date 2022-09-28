@@ -14,7 +14,7 @@ int check_sqrt(int n, int rt)
 	if (rt * rt == n)
 		return (rt);
 	if (rt * rt <= 0)
-		return (check_sqrt(n, i + 1));
+		return (check_sqrt(n, rt + 1));
 	else
 		return (-1);
 }
