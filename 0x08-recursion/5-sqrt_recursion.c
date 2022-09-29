@@ -11,19 +11,17 @@
  */
 int check_sqrt(int n, int rt)
 {
-	if (rt * rt == n)
+	if ((rt * rt) == n)
 		return (rt);
-	if (rt * rt <= 0)
-		return (check_sqrt(n, rt + 1));
-	else
+	if (rt == n / 2)
 		return (-1);
+	return (_sqrt(num, rt + 1));
 }
-
 /**
- * _sqrt_recursion - calculates the natural square root of n
- * @n: base number
- *
- * Return: the square root of n
+ * _sqrt_recursion - Returns the natural square root of a number
+ * @n: The number to return the square root of
+ * Return: If n has a natural square root - the natural square root of n
+ * If n does not have a natural square root - -1
  */
 int _sqrt_recursion(int n)
 {
