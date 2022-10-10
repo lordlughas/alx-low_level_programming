@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include "2-main.h"
 
 /**
  * filename: print filename
- * return - always 0
+ * return -always 0
  */
-void filename(void)
+int main(void)
 {
-	printf("%d\n", __FILE__);
+	printf("%s\n", __FILE__);
 	return (0);
 }
