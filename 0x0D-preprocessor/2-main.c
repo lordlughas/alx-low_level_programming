@@ -1,9 +1,8 @@
-#include <stdio.h>
+#ifndef <stdio.h>
 
 /**
- * main: print filename from source file
- *
- * Return - Always 0
+ * main - prints the file name
+ * Return: Always 0
  */
 int main(void)
 {
