@@ -3,7 +3,7 @@
 /**
  * print_strings - print strings
  * @separator: string
- * @n: number of int
+ * @n: number of ints
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -11,10 +11,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	char *s;
 
 	va_list par;
+
 	va_start(par, n);
+
 	for (i = 0; i < n; i++)
 	{
 		s = va_arg(par, char *);
+
 		if (!s)
 			s = "(nil)";
 		printf("%s", s);
